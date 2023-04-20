@@ -1,0 +1,75 @@
+/* NAV */
+.navbar{
+    font-size: 1.5rem;
+}
+.navbar-collapse{
+    align-items: center;
+    justify-content: space-around;
+
+}
+h1,h2,h3,h4,span{
+    font-family: 'Kanit', sans-serif;
+}
+
+.navbar-brand img{
+    filter: invert(1);
+}
+.link-off{
+    text-decoration: none;
+}
+.h-100vh{
+    height: 100vh !important;
+}
+.dec-none{
+    text-decoration: none;
+}
+.skills, .card, .bg-form{
+    box-shadow: 10px 10px 10px 5px rgba(0, 0, 0, 0.5);;
+}
+textarea{
+    resize: none;
+    height: 15rem;
+}
+
+button:hover{
+    opacity: 1 !important;
+    transition: opacity .3s;
+}
+
+
+@media screen and (max-width:480px){
+        .navbar-brand{
+            display: none;
+        }
+        .screen-code{
+            padding: .5rem !important;
+            margin: 0;
+        }
+        .screen-code p,span{
+            margin: .5rem !important;
+        }
+        .d-cv{
+            margin-bottom: 10px;
+        }
+        .carrusel-main{
+            display: none;
+        }
+        .sm-none{
+            display: none !important;
+        }
+        .t-sm-p i{
+            display: none;
+        }
+        .sm-p{
+            padding: 10px;
+        }
+        .img-emoji{
+            display: none;
+        }
+        .skills, .card, .bg-form{
+            box-shadow: none;
+        }
+        span{
+            margin: 0 !important;
+        }
+}
