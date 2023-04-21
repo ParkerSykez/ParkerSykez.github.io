@@ -72,4 +72,7 @@ button:hover{
         span{
             margin: 0 !important;
         }
+        .txt-me{
+            padding-top: 0 !important;
+        }
 }
