@@ -35,7 +35,17 @@ button:hover{
     opacity: 1 !important;
     transition: opacity .3s;
 }
-
+#emailC{
+    display: none;
+}
+.error{
+    background: rgb(0, 0, 0);
+    color: #fff;
+    text-align: center;
+    font-weight: bolder;
+    text-transform: uppercase;
+    width: 100%;
+}
 
 @media screen and (max-width:480px){
         .navbar-brand{
