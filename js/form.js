@@ -47,8 +47,6 @@ function validarDatos(e){
     
     comprobarEmail();
 
-    mostrarAlerta('Exito')
-
 }
 
 function mostrarAlerta(mensaje){
